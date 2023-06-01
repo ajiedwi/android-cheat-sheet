@@ -1,2 +1,4 @@
-# android-cheat-sheet
-Android cheat sheet to learn android development from scratch
+# Android Cheat Sheet
+Android cheat sheet to learn Android development from scratch
+
+## Index
