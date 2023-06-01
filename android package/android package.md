@@ -6,7 +6,7 @@
 
 # AAB (.aab)
 
-`AAB` stands for **Android App Bundle**. App bundles are signed binaries that organize yout app's code and resources into modules. Code and resources for each module are organized similarly to what you would find in a `APK`. Each of these modules may generated as separate `APK`s. Google Play then uses the app bundle to generate the various `APK`s that are served to users, such as `base APK`, `feature APK`, `configuration APK`, and for devices that not support split `APK`s (Android 4.4 API level 19 and lower), will generate `multi-APK`.
+`AAB` stands for **Android App Bundle**. App bundles are signed binaries that organize yout app's code and resources into modules. Code and resources for each module are organized similarly to what you would find in a `APK`. Each of these modules may generated as separate `APK`s. Google Play then uses the app bundle to generate the various `APK`s that are served to users, such as `base APK`, `feature APK`, `configuration APK`, and for devices that not support split `APK`s (Android 4.4 API level 19 and lower), will generate `multi-APK`. Unlike `APK` `AAB` cannot installed directly to devices. Instead, we need to upload it to Google Play Sotre and let them generates `APK` for each device respectively.
 
 ![AAB Strucutre](https://developer.android.com/static/images/app-bundle/aab_format-2x.png)
 
